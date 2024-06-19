@@ -1,0 +1,19 @@
+#one{
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    
+}
+#bu{
+    display:block;
+   color: aquamarine;
+   background-color: black;
+}
+#two{
+    display: inline-block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+   
+}
