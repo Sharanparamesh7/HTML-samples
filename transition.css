@@ -1,0 +1,13 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 237, 9);
+   transition: all 1s; 
+}
+div:hover{
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    background-color: rgb(7, 175, 29);
+    transition: all 1s;
+}

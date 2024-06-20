@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">ANIMALS</h1>
+    <p class="parah">parah 1</p>
+    <p class="parah">parah 2</p>
+    <p class="parah">parah 3</p>
+    <p class="parah">parah 4</p>
+    <button onclick="myfunction()">Show animal</button>
+</body>
+<script>
+    let animals=["tiger","lion","leopard","dog"]
+    document.getElementById("heading").innerHTML="Animals"  //getElementByID
+   
+function myfunction(){
+    for(i in animals){
+        document.getElementsByClassName("parah")[i].innerHTML=animals[i]
+    }
+}
+</script>
+</html>

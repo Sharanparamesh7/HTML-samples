@@ -1,0 +1,37 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline;
+    background-color: crimson;
+   
+}
+#one{
+    background-color: blueviolet;
+    position: static;
+}
+#two{
+    background-color: rgb(18, 229, 215);
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#three{
+    background-color: rgb(253, 12, 136);
+    position: absolute;
+    right: 20px;
+}
+#four{
+    background-color: rgb(202, 245, 11);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 500px;
+    z-index:-1;
+}
+
+#five{
+    background-color: rgb(127, 109, 227);
+    position: sticky;
+    bottom: 20px;
+}

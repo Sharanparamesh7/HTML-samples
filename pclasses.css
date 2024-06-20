@@ -1,0 +1,9 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 237, 9);
+}
+div:hover{
+    color: aliceblue;
+    background-color: rgb(7, 175, 29);
+}

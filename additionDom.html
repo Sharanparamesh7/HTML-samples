@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Simple Addition Calculator</h1>
+    <div>
+        <label for="number1">Number 1:</label>
+        <input type="text" id="number1">
+    </div>
+    <div>
+        <label for="number2">Number 2:</label>
+        <input type="text" id="number2">
+    </div>
+    <button onclick="addNumbers()">Add</button>
+    <p id="result">Sum: </p>
+</body>
+<script>
+    function addNumbers() {
+        // Get the values from the textboxes
+        var num1 = parseFloat(document.getElementById('number1').value);
+        var num2 = parseFloat(document.getElementById('number2').value);
+
+        // Check if the inputs are valid numbers
+        if (isNaN(num1) || isNaN(num2)) {
+            alert("Please enter valid numbers");
+            return;
+        }
+
+        // Calculate the sum
+        var sum = num1 + num2;
+
+        // Display the result
+        document.getElementById('result').innerText = "Sum: " + sum;
+    }
+</script>
+</html>
